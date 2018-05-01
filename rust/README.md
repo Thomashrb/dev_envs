@@ -1,4 +1,4 @@
-Rust latest refers to
+rustLatest refers to
 
 ```bash
 $ cat .config/nixpkgs/config.nix

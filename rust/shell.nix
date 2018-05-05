@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "rust-env";
   buildInputs = [
     rustLatest
-    racer
+    rustracer
     rustfmt
     cargo
     rustc

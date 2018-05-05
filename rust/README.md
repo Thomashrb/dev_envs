@@ -1,4 +1,8 @@
-rustLatest refers to
+Iv stopped using rustNightly as I found the contants new builds to
+be a hassle to compile every time I wanted to enter my env.
+
+The only difference in config however to use rust nightly is that i use
+https://github.com/solson/rust-nightly-nix like so:
 
 ```bash
 $ cat .config/nixpkgs/config.nix
@@ -22,3 +26,5 @@ $ cat .config/nixpkgs/config.nix
 }
 
 ```
+
+then I use these overrides in my shell.nix instead of the standard ones.

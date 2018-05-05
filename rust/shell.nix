@@ -3,11 +3,14 @@ with import <nixpkgs> {};
 stdenv.mkDerivation {
   name = "rust-env";
   buildInputs = [
-    rustLatest
     rustracer
+    rustPlatform.rustcSrc
+    rustc
     rustfmt
     cargo
-    rustc
+
   ];
 
-}
+  # Set Environment Variables
+  # RUST_BACKTRACE = 1;
+  RUST_SRC_PATH = "${rustPlatform.rustcSrc}";

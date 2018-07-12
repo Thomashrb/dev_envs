@@ -10,3 +10,6 @@ Haskell
 
 Rust
 -----
+
+Python
+-------

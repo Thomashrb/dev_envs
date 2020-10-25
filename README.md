@@ -1,15 +1,5 @@
-# nixosDevEnvSetups
+# dev_envs
 
-One of the best aspects of using NixOS for me are the isolated development environments.
+## docker
 
-Elm
----
-
-Haskell
--------
-
-Rust
------
-
-Python
--------
+## nixos
